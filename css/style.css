@@ -1,0 +1,327 @@
+body{
+	background: #c2acac80;
+	padding: 0;
+	margin: 0;
+	font: 15px/1.5, Arial, Helvetica, sans-serif;
+
+}
+.container{
+	width: 90%; 
+	margin: auto;
+	overflow: hidden;
+	text-align: center;
+}
+header{
+	background: rgba(45, 45, 184, 0.596);
+	color: blue;
+	padding-top: 5px;
+	min-height: 20px;
+	position: fixed;
+	margin-bottom: none;
+
+		
+}
+
+
+#branding{
+	background: #ffffff;
+	color: blue;
+	padding-top: 5px;
+	min-height: 55px;
+	margin-bottom: 100px;
+	font-size: 35px;
+	margin-top: 100px;
+	background: url(../image/1.jpg) no-repeat center/cover;
+	width: 100%;
+	height: 50vh;
+	overflow-y: hidden;
+}
+#branding h1{
+	margin: 0;
+	position: relative;
+	animation: branding;
+	animation-duration: 4s;
+	animation-fill-mode: forwards;
+}
+@keyframes branding {
+	0% {top: -300px}
+	100%{top: 120px}
+}
+header .showcase .current a, #branding .highlight{
+	color: red;
+	
+	font-weight: bold;
+
+}
+ 
+header .showcase a{
+	color: #ffff;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 13px;
+	
+	
+	
+}
+header .showcase li{
+	
+	display: inline;
+	padding: 0px 17px 0px 17px;
+	
+		
+}
+header .showcase nav{
+	
+	padding-bottom: 2px;
+	
+}
+header .showcase a:hover{
+	color: green;
+	font-weight: bold;
+}
+#left{
+	margin-top: 10px;
+	background: orange;
+	text-transform: uppercase;
+	width: 35%;
+	height: 200px;
+	padding: 10px;
+	text-align: center;
+	color: aliceblue;
+	float: left;
+	margin-left: 20px;
+	position: relative;
+	animation-name: left;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	
+
+}
+@keyframes left {
+	0% {background-color: firebrick; border-radius: 50%; left: 20px; }
+	50% {background-color: chocolate; border-radius: 25%; left: 20px;}
+	100% {background-color: rgb(0, 100, 139); border-radius: 50%; left: 20px; }
+}
+
+#right{
+	background: blueviolet;
+	width: 35%;
+	height: 100px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 50px;
+	float: right;
+	margin-top: 3px;
+	transition: all;
+}
+#right:hover{
+	background: green;
+	border-radius: 50%;
+}
+#about{
+	font-size: 35px;;
+	color: black;
+	margin-top: 20px;
+	height: 400px;
+	padding-top: 10px;
+	line-height: 3em;
+	text-transform: uppercase;
+	font-size: 18px;
+	
+}
+#about h1{
+	color: blue;
+	font-style: oblique;
+	background: #fff;
+	background-size: 100%;
+}
+#about:hover{
+	background: lightblue;
+}
+#service{
+	background: burlywood;
+	color: white;
+	font-size: 19px;
+	margin-top: 10px;
+	height: 300px;
+	padding-top: 10px;
+	line-height: 2em;
+	text-transform: uppercase;
+	width: 100%;
+
+}
+#service h1{
+	color:green;
+}
+#team{
+	margin-top: 10px;
+	height: 300px;
+	padding-top: 10px;
+	line-height: 3em;text-transform: uppercase;
+}
+#team h1{
+	color: olive;
+}
+#vision{
+	float: left;
+	margin-top: 50px;
+	height: 400px;
+	padding-top: 5px;
+	line-height: 3em;
+	text-transform: uppercase;
+	width: 40%;
+	background: orchid;
+}
+#vision h1{
+	color: rgb(245, 11, 11)
+	
+}
+#mission{
+	background: paleturquoise;
+	float: right;
+	width: 45%;
+	margin-top: 50px;
+	height: 400px;
+	padding-top: 10px;
+	line-height: 2em;
+	text-transform: uppercase;
+}
+#objectives{
+	font-weight: bold;
+	margin: auto;
+	width: 50%;
+	margin-top: 40px;
+	height: 300px;
+	padding-top: 30px;
+	line-height: 3em;
+	text-transform: uppercase;
+}
+#objectives h1{
+	color: rgb(245, 139, 10);
+}
+#value{
+	
+	margin-top: 20px;
+	height: 300px;
+	padding-top: 10px;
+	line-height: 3em;
+	text-transform: uppercase;
+}
+#value h1{
+	color: rgb(7, 129, 13);
+}
+#message{
+	
+	margin-top: 20px;
+	height: 330px;
+	padding-top: 10px;
+	line-height: 3em;
+	text-transform: uppercase;
+}
+#message h1{
+	color: #fa030380
+}
+#product{
+	
+	margin-top: 50px;
+	height: 300px;
+	padding-top: 10px;
+	line-height: 3em;
+	text-transform: uppercase;
+}
+#product h1{
+	color: rgb(247, 9, 167);
+}
+#prod{
+	margin-top: 20px;
+	font-style: italic;
+	font-size: 17px;
+	color: rgb(121, 9, 196);
+	margin-bottom: 20px;
+	
+}
+#callus{
+	text-align: center;
+	width: 50%;
+	color: blue;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	line-height: 1.5em;
+	font-size: 25px;
+
+}
+#information{
+
+	margin-top: 20px;
+	min-width: 40%;;
+	min-height: 300px;
+	padding-top: 10px;
+	line-height: 1.5em;
+	text-transform: uppercase;
+	text-align: left;
+	float: left;
+}	
+#quote{
+	margin-top: 20px;
+	width: 30%;
+	float: right;
+	text-transform: uppercase;
+	background: rgb(124, 115, 115);
+	color: #fff;
+	padding-bottom: 20px;
+	line-height: 1.5em;
+
+}
+.button-1{
+	background: red;
+	width: 100px;
+	border: 10px;;
+}
+.button-1:hover{
+	background: green;
+}
+footer{
+	background: rgba(214, 7, 7, 0.678);
+	padding: 10px;
+	margin-top: 20px;
+	color: beige;
+	text-align: center;
+	
+}
+
+@media only screen and (max-width: 768px){
+	body{
+	
+}
+.container{
+	float: none;
+	width: 100%;
+	margin-top: 10px;
+	padding-top: 10px;
+	text-align: center;
+	overflow: hidden;
+	line-height: 1.5em;
+	background-color: none;
+}
+#left, #right, #vision, #mission, #quote
+{display: none;}
+
+#information{
+	text-align: center;
+	float: none;
+}
+.showcase{
+	display: none;
+}
+#branding{
+	background: none;
+	height: 400px;
+	background-size: auto;
+}
+#branding h1{
+	animation: none;
+	line-height: 1.9em;
+
+	
+}
